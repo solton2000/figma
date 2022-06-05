@@ -1,0 +1,788 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#header{
+    padding: 15px 0;
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+    position: fixed;
+    width: 100%;
+    z-index: 33;
+    box-shadow: 0 3px 13px black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 0 15px;
+}
+.header-gen input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 0 20px;
+    outline: none;
+}
+.header-gen button{
+    border: none;
+    border-radius: 20px;
+    color: #ef2779;
+    cursor: pointer;
+    width: 141px;
+    height: 40px;
+    margin: 0 15px;
+    transition: .4s;
+}
+.header-gen button:hover{
+    transform: scaleX(1.1);
+}
+
+#hero{
+    background: url("../img/aaaa.png") no-repeat center/cover;
+    min-height: 100vh;
+
+}
+.hero-gen img{
+    position: absolute;
+    left: 0 ;
+    top: 235px;
+
+}
+.hero-sen h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    position: absolute;
+    left: 55% ;
+    top: 255px;
+}
+.hero-sen p {
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    left: 55% ;
+    top: 60%;
+}
+.hero-sen button{
+    border: none;
+    border-radius: 17px;
+    color: #1931cb;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    transition: .4s;
+    position: absolute;
+    left: 55% ;
+    top: 75%;
+}
+.hero-sen button:hover {
+    transform: scaleX(1.1);
+}
+
+#hera {
+    background: white;
+}
+.hera h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #252B42;
+    text-align: center;
+    margin: 50px;
+}
+.hera p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    color: #252B42;
+    text-align: center;
+    margin: 40px;
+}
+.hera p2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #374754;
+    position: absolute;
+    left: 45% ;
+    top: 145%;
+    margin: -70px;
+}
+.hera h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #252B42;
+    margin: 70px;
+    position: absolute;
+    left: 15% ;
+    top: 145%;
+}
+.hera-gen img{
+    position: absolute;
+    left: 15% ;
+    top: 156%;
+}
+.hera p5 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #252B42;
+    position: absolute;
+    left: 15% ;
+    top: 170%;
+}
+.hera h5{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #252B42;
+    position: absolute;
+    left: 50% ;
+    top: 155%;
+}
+.hera p6{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #374754;
+    position: absolute;
+    left: 45% ;
+    top: 170%;
+}
+.hera-fen img{
+    position: absolute;
+    left: 45% ;
+    top: 156%;
+}
+.hera h3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #252B42;
+    position: absolute;
+    left: 80% ;
+    top: 155%;
+}
+.hera p7{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #374754;
+    position: absolute;
+    left: 75% ;
+    top: 170%;
+}
+.hera-den img{
+    position: absolute;
+    left: 75% ;
+    top: 156%;
+}
+
+.hers h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    color: #252B42;
+    position: absolute;
+    left: 40% ;
+    top: 200%;
+}
+.hers p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #374754;
+    position: absolute;
+    left: 40% ;
+    top: 230%;
+}
+.hers button{
+    border: none;
+    border-radius: 25px;
+    color: lavender;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    transition: .4s;
+    position: absolute;
+    background: #38A3F1;
+    position: absolute;
+    left: 40% ;
+    top: 250%;
+}
+.hers button:hover {
+    transform: scaleX(1.1);
+}
+
+.herc img{
+    position: absolute;
+    left: 15% ;
+    top: 270%;
+}
+
+#herm{
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+    width: 1540px;
+    height: 495px;
+    position: absolute;
+    left: 0 ;
+    top: 370%;
+}
+.herm h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 30px;
+}
+.herm p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 35px;
+}
+.herm p8{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    color: #FFFFFF;
+
+}
+.herm p9{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 40%;
+    top: 55%;
+
+}
+.herm input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 0 40px;
+    outline: none;
+    margin: 150px 400px;
+}
+.herm button{
+    border: none;
+    border-radius: 17px;
+    color: #1931cb;
+    cursor: pointer;
+    width: 320px;
+    height: 40px;
+    transition: .4s;
+    background: #EF2779;
+    position: absolute;
+    left: 39%;
+    top: 85%;
+
+}
+.herm button:hover{
+    transform: scaleX(1.1);
+}
+
+.herb h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    color: #252B42;
+    text-align: center;
+    position: absolute;
+    left: 45% ;
+    top: 460%;
+}
+.herb p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #374754;
+    text-align: center;
+    position: absolute;
+    left: 42% ;
+    top: 473%;
+}
+.herb p1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #374754;
+    position: absolute;
+    left: 18% ;
+    top: 490%;
+}
+.herb p2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #374754;
+    position: absolute;
+    left: 50% ;
+    top: 490%;
+}
+.herb p3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #374754;
+    position: absolute;
+    left: 80% ;
+    top: 490%;
+}
+.herb p4{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #374754;
+    position: absolute;
+    left: 18% ;
+    top: 540%;
+}
+.herb p5{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #374754;
+    position: absolute;
+    left: 50% ;
+    top: 540%;
+}
+.herb p6{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #374754;
+    position: absolute;
+    left: 80% ;
+    top: 540%;
+}
+.hera-dee{
+    position: absolute;
+    left: 79% ;
+    top: 497%;
+}
+.hera-dew{
+    position: absolute;
+    left: 49% ;
+    top: 495%;
+}
+.hera-deq{
+    position: absolute;
+    left: 16% ;
+    top: 495%;
+}
+.hera-deq p15{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #374754;
+}
+.hera-dew p16{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #374754;
+}
+.hera-dee p17{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #374754;
+}
+.hera-dek{
+    position: absolute;
+    left: 16% ;
+    top: 545%;
+}
+.hera-del{
+    position: absolute;
+    left: 49% ;
+    top: 545%;
+}
+.hera-dem{
+    position: absolute;
+    left: 80% ;
+    top: 545%;
+}
+.hera-dek p8{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #374754;
+}
+.hera-del p9{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #374754;
+}
+.hera-dem p0 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #374754;
+}
+.herb button{
+    border: none;
+    border-radius: 25px;
+    color: lavender;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    transition: .4s;
+    position: absolute;
+    background: #38A3F1;
+    position: absolute;
+    left: 46% ;
+    top: 590%;
+}
+.herb button:hover{
+    transform: scaleX(1.1);
+}
+
+#here{
+    background: #FFFFFF;
+}
+.here{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.here h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    color: #252B42;
+    position: absolute;
+    left: 44% ;
+    top: 610%;
+}
+.here img{
+    position: absolute;
+    left: 44% ;
+    top: 635%;
+}
+.here h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #374754;
+    position: absolute;
+    left: 30% ;
+    top: 655%;
+    text-align: center;
+}
+.here-dod{
+    position: absolute;
+    left: 47% ;
+    top: 675%;
+}
+.here button{
+    border: none;
+    border-radius: 25px;
+    color: lavender;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    transition: .4s;
+    position: absolute;
+    background: #38A3F1;
+    position: absolute;
+    left: 44% ;
+    top: 697%;
+}
+.here button:hover{
+    transform: scaleX(1.1);
+}
+
+.herr h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    color: #252B42;
+    position: absolute;
+    left: 45% ;
+    top: 730%;
+}
+.herr p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #374754;
+    text-align: center;
+    position: absolute;
+    left: 40% ;
+    top: 748%;
+}
+.herr-asa{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 335px;
+    height: 310px;
+    border: 1px solid #DEDEDE;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 10% ;
+    top: 768%;
+}
+.herr-aza h1 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #252B42;
+    position: absolute;
+    left: 14% ;
+    top: 770%;
+}
+.herr-aza p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #374754;
+    position: absolute;
+    left: 13% ;
+    top: 780%;
+}
+.herr-asa img{
+    position: absolute;
+    left: 10% ;
+    top: 42%;
+}
+.herr-asa button{
+    border: none;
+    border-radius: 25px;
+    color: lavender;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    transition: .4s;
+    position: absolute;
+    background: #38A3F1;
+    position: absolute;
+    left: 10% ;
+    top: 75%;
+}
+.herr-asa button:hover{
+    transform: scaleX(1.1);
+}
+.herr-axa {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #374754;
+}
+.herr-ass{
+    width: 335px;
+    height: 310px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #DEDEDE;
+    position: absolute;
+    left: 40% ;
+    top: 768%;
+}
+.herr-ass img{
+    position: absolute;
+    left: 15% ;
+    top: 42%;
+}
+.herr-ass button{
+    border: none;
+    border-radius: 25px;
+    color: lavender;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    transition: .4s;
+    position: absolute;
+    background: #38A3F1;
+    position: absolute;
+    left: 15% ;
+    top: 75%;
+}
+.herr-ass button:hover{
+    transform: scaleX(1.1);
+}
+.herr-azm h1 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #252B42;
+    position: absolute;
+    left: 44% ;
+    top: 770%;
+}
+.herr-azm p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #374754;
+    position: absolute;
+    left: 44% ;
+    top: 780%;
+}
+.herr-axx{
+    width: 335px;
+    height: 310px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #DEDEDE;
+    position: absolute;
+    left: 70% ;
+    top: 768%;
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+}
+.herr-axx img{
+    position: absolute;
+    left: 18% ;
+    top: 42%;
+}
+.herr-axx button{
+    border: none;
+    border-radius: 25px;
+    color: lavender;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    transition: .4s;
+    position: absolute;
+    background: #38A3F1;
+    position: absolute;
+    left: 15% ;
+    top: 75%;
+}
+.herr-axx button:hover{
+    transform: scaleX(1.1);
+}
+.herr-azi h1 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 74% ;
+    top: 770%;
+}
+.herr-azi p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 74% ;
+    top: 780%;
+}
+
+
+
